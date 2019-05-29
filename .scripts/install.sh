@@ -10,6 +10,10 @@ brew update
 # Install stuff with brew
 brew install git
 brew install python3
+brew install tmux
 
 # Install Haskell Stack
-curl -sSL https://get.haskellstack.org/ | sh
+# curl -sSL https://get.haskellstack.org/ | sh
+
+# Copy files from this repo to local machine
+sh copy_dotfiles_to_local.sh
